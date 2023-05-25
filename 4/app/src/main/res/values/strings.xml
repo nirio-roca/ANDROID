@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AreTrapecio</string>
+    <string name="area_de_trapecio_rectagular">Area de trapecio Rectagular</string>
+    <string name="f_rmula_a_a_b_2_x_h">Fòrmula: A = (a+b)/2 x h</string>
+</resources>

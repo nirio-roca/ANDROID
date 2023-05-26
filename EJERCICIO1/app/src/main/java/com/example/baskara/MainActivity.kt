@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import java.text.DateFormat;
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -28,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         lblresultado = findViewById(R.id.lblresultado);
 
         btnresultado  =findViewById(R.id.btncalcular);
+        // formato decimal
 
         btnresultado.setOnClickListener {
             val a = txta.text.toString().toDouble();
@@ -40,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
             respos = (-b + (Math.sqrt(auxillar)))/2*a;
             respnega = (-b - (Math.sqrt(auxillar)))/2*a;
-
+            
             lblresultado.text="Valor de X+: $respos\nValor de X-: $respnega"
 
 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6A6A6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="100dp"
+        android:text="Bhaskara"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Ingrese el valor de a"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgformula" />
+
+    <EditText
+        android:id="@+id/txtb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Ingrese el valor de b"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txta" />
+
+    <EditText
+        android:id="@+id/txtc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Ingrese el valor de c"
+        android:inputType="numberSigned"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtb" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="20dp"
+        android:background="#000000"
+        android:backgroundTint="#040303"
+        android:text="CALCULAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtc" />
+
+    <ImageView
+        android:id="@+id/imgformula"
+        android:layout_width="100dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="113dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbltitulo"
+        tools:srcCompat="@drawable/ddddddddddddddddd" />
+
+    <TextView
+        android:id="@+id/lblresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="84dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncalcular" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

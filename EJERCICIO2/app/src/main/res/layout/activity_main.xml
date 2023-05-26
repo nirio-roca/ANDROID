@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1% DE AL ENERO Y ABRIL"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <EditText
+        android:id="@+id/txtenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="Ingrese el monto de ENERO"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbltitulo" />
+
+    <EditText
+        android:id="@+id/txtfebrero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="Ingrese el monto de FEBRERO"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbltitulo" />
+
+    <EditText
+        android:id="@+id/txtmarzo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="Ingrese el monto de MARZO"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbltitulo" />
+
+    <EditText
+        android:id="@+id/txtabril"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="Ingrese el monto de ABRIL"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbltitulo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="30dp"
+        android:text="CALCULAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtabril" />
+
+    <TextView
+        android:id="@+id/lblresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="155dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

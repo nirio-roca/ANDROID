@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var lblsubpantalla:TextView;
     lateinit var btneliminarpornumero:Button;
     lateinit var btneliminar:Button;
-
+    lateinit var btnpotencia:Button;
 
     // VARIABLES AUXILLAES
     var valorInicial:Boolean = true;
@@ -72,11 +72,15 @@ class MainActivity : AppCompatActivity() {
         lblsubpantalla = findViewById(R.id.lblsubpantalla);
         btneliminarpornumero = findViewById(R.id.btnporxmun);
         btneliminar  = findViewById(R.id.btneleiminar);
-
+        btnpotencia = findViewById(R.id.btnpontencia);
 
         // EVENTOS
         // numeros
-        btn0.setOnClickListener { if (lblpantalla.text.toString() != "0"){ botonesnumeros("0"); } }
+        btn0.setOnClickListener {
+            if (lblpantalla.text.toString() != "0") {
+                botonesnumeros("0");
+            }
+        }
         btn1.setOnClickListener { botonesnumeros("1"); }
         btn2.setOnClickListener { botonesnumeros("2"); }
         btn3.setOnClickListener { botonesnumeros("3"); }
@@ -131,6 +135,18 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+
+
+
+        btnpotencia.setOnClickListener {
+            valor1 = lblpantalla.text.toString().toDouble();
+            if (valor1 != 0.0) {
+                lblsubpantalla.text = "$valor1² = "
+                lblpantalla.setText(( Math.pow(valor1,2.0) ).toString());
+                valor1 = lblpantalla.text.toString().toDouble();
+                valorInicial = true;
+            }
+        }
 
 
         // igualdad

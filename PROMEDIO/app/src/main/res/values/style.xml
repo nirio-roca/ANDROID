@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bg_theme">
+        <item name="android:backdropColor">#23A183</item>
+    </style>
+
+
+
+
+</resources>

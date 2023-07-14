@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PROMEDIO</string>
+    <string name="textview">TextView</string>
+    <string name="vamos_a_emperzar">Vamos a emperzar</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="resgistrarse">Resgistrarse</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
 </resources>

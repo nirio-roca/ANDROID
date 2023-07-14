@@ -12,6 +12,12 @@
         android:theme="@style/Theme.PROMEDIO"
         tools:targetApi="31">
         <activity
+            android:name=".actFinal"
+            android:exported="false" />
+        <activity
+            android:name=".actNotas"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

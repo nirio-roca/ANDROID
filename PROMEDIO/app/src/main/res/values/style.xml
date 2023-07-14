@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="bg_theme">
-        <item name="android:backdropColor">#23A183</item>
+            <item name="android:backdropColor">#72079F</item>
+            <item name="android:textSize">10px</item>
+            <item name="android:paddingBottom">5px</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:layout_marginTop">200sp</item>
     </style>
 
 

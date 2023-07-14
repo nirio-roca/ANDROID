@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".actNotas">
+
+    <EditText
+        android:id="@+id/txtnota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="26dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lblnota3"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota2" />
+
+    <TextView
+        android:id="@+id/lblnota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lifesaversextrabold"
+
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtnota3"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lifesaversextrabold"
+
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="27dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lblnota2"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota1" />
+
+    <TextView
+        android:id="@+id/lblnota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="@font/lifesaversextrabold"
+
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtnota2"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lblusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:text="TextView"
+        android:fontFamily="@font/lifesaversextrabold"
+
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnprocesar"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/rectangle"
+        android:onClick="ProcesarNotas"
+        android:text="Procesar notas"
+        android:textAllCaps="false"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota3" />
+
+    <TextView
+        android:id="@+id/lblnota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="@font/lifesaversextrabold"
+
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtnota1"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="27dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lblnota1"
+        app:layout_constraintTop_toBottomOf="@+id/lblusuario" />
+</androidx.constraintlayout.widget.ConstraintLayout>

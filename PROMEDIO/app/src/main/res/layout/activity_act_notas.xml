@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".actNotas">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:background="@drawable/fondo_rec"
+        android:backgroundTint="#F3F3F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="400dp"
+        android:layout_height="530dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.532"></FrameLayout>
+
+    <TextView
+        android:id="@+id/lblnota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="@string/nota_3"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtnota3"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnota3"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="26dp"
+        android:autofillHints=""
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/lifesaversbold"
+        android:hint="@string/ingrese_nota"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lblnota3"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota2"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/txtnota2"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/lifesaversbold"
+        android:hint="Ingrese nota"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lblnota2"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota1"
+        android:autofillHints=""
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lblnota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="NOTA 2 :"
+
+        android:textColor="#000000"
+        android:textColorHint="#F4F2F2"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtnota2"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lblusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="Nirio"
+
+        android:textAlignment="center"
+        android:textColor="#263238"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,VisualLintOverlap" />
+
+    <Button
+        android:id="@+id/btnprocesar"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#009688"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:onClick="ProcesarNotas"
+        android:text="Procesar notas"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnota3"
+        tools:ignore="HardcodedText,TextSizeCheck,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/lblnota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="@string/nota_1"
+
+        android:textColor="#000000"
+        android:textColorHint="#F4F2F2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+        app:layout_constraintEnd_toStartOf="@+id/txtnota1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <EditText
+        android:id="@+id/txtnota1"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="27dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/lifesaversbold"
+        android:hint="Ingrese nota"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lblnota1"
+        app:layout_constraintTop_toBottomOf="@+id/lblusuario"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="299dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user_foreground"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".actFinal">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        style="@style/rec_theme"
+        android:layout_width="76dp"
+        android:layout_height="293dp"
+        android:background="@drawable/circule"
+        android:backgroundTint="#F3F3F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteY="3dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fonodo2"
+        style="@style/rec_theme"
+        android:layout_width="183dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/bordertiitle"
+        android:backgroundTint="#F3F3F3"
+        android:rotation="-2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fonodo3"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fonodo1"
+        style="@style/rec_theme"
+        android:layout_width="183dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/bordertiitle"
+        android:backgroundTint="#F3F3F3"
+        android:rotation="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fonodo3"
+        style="@style/rec_theme"
+        android:layout_width="183dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bordertiitle"
+        android:backgroundTint="#F3F3F3"
+        android:rotation="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="Promedio"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombre" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="Estado"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblpromedio" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:text="Nombre"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblpromedio"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:padding="5dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/lblestado"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:padding="5dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fonodo1"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="664dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/lifesaversextrabold"
+        android:onClick="regresarInicio"
+        android:padding="5dp"
+        android:text="Cerrar Sesión"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

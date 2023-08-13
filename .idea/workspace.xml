@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aea41371-749e-4bf4-99f1-076a36001a16" name="Changes" comment="YEA" />
+    <list default="true" id="aea41371-749e-4bf4-99f1-076a36001a16" name="Changes" comment="Examen Promedio">
+      <change beforePath="$PROJECT_DIR$/DIALOGO/app/src/main/java/com/example/dialogo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DIALOGO/app/src/main/java/com/example/dialogo/MainActivity.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,7 +37,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "G:/6/DESARROLLO-DE-APLICATIVOS-MOVILES-II/PRACTICA/ANDROID"
+    "last_opened_file_path": "G:/6/DESARROLLO-DE-APLICATIVOS-MOVILES-II/PRACTICA/ANDROID/DIALOGO"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687873751063</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Examen Promedio">
+      <created>1689920143203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689920143203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="YEA" />
-    <option name="LAST_COMMIT_MESSAGE" value="YEA" />
+    <MESSAGE value="Examen Promedio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Examen Promedio" />
   </component>
 </project>

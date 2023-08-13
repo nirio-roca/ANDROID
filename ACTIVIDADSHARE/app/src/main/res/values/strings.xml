@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PREFE</string>
+    <string name="sharepreferneces">SHAREPREFERNECES</string>
+    <string name="textview">TextView</string>
+</resources>
